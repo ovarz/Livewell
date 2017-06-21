@@ -3,3 +3,7 @@
 3 = doctor-list.php
 4, 5, 6 = doctor-detail.php
 7 = doctor-book-step-1.php
+8 = doctor-book-step-2.php
+9 = doctor-book-step-3.php
+10 = doctor-book-step-3-done.php
+11 = doctor-book-step-4.php

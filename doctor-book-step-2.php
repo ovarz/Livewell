@@ -67,36 +67,57 @@
               	  <!-- tab button -->
                   <div class="docinfo-step">
                     <ul>
-                      <li class="active"><span>Location</span> <div class="arrow"></div></li>
-                      <li><span>Date & Time</span> <div class="arrow"></div></li>
+                      <li><span>Location</span> <div class="arrow"></div></li>
+                      <li class="active"><span>Date & Time</span> <div class="arrow"></div></li>
                       <li><span>Patient's Detail</span> <div class="arrow"></div></li>
                       <li><span>Verify</span></li>
                     </ul>
                   </div>
                   <!-- end tab button -->
                   
-                  <div class="docinfo-tab-content choose-loc">   
+                  <div class="docinfo-tab-content choose-time">   
                     
-                    <?php for ($i=1; $i <= 2 ; $i++) { ?>
-                    <!-- choose location -->
+                    <!-- choose time -->
                     <div>
-                      <div class="place"><b>Place</b> Klinik Medika Lestari - Taman Palem</div>
-                      <div class="addr">
-                        <b>Address</b>
-                        <p>Jl. Raya Gubeng no. 70, Gubeng, Kota SBY, Jawa Timur 60281</p>
-                        <p>Indonesia</p>
-                      </div>
-                      <div class="practice">
-                        <h5>Practice Hours</h5>
-                        <b>Monday - Saturday</b>
-                        <p>8AM - 11AM</p>
-                      </div>
-                      <div class="choose-button">
-                        <input class="btn" value="Choose this location" name="" type="button" />
-                      </div>
+                      <h5>Choose Your Available Time</h5>
                     </div>
-                    <!-- end choose location -->
-                    <?php } ?> 
+                    
+                    <div class="select-time">
+                      <b>1st Option</b>
+                      <ul>
+                        <li>
+                          <div class="sort-form" id="pilihtanggal">
+                            <input type="text" class="choosedate" />
+                          </div>
+                        </li>
+                        <li>
+                          <select name="">
+                            <option value="1">Select Time</option>
+                          tes</select>
+                        </li>
+                      </ul>
+                    </div>
+                    
+                    <div class="select-time">
+                      <b>2nd Option</b>
+                      <ul>
+                        <li>
+                          <div class="sort-form" id="pilihtanggal">
+                            <input type="text" class="choosedate" />
+                          </div>
+                        </li>
+                        <li>
+                          <select name="">
+                            <option value="1">Select Time</option>
+                          tes</select>
+                        </li>
+                      </ul>
+                    </div>
+                    <!-- end choose time --> 
+                    
+                    <div class="book-button">
+                      <input class="btn" value="Continue" name="" type="button">
+                    </div>
                     
                   </div>                  
                 </li>

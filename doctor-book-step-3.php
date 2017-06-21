@@ -67,36 +67,89 @@
               	  <!-- tab button -->
                   <div class="docinfo-step">
                     <ul>
-                      <li class="active"><span>Location</span> <div class="arrow"></div></li>
+                      <li><span>Location</span> <div class="arrow"></div></li>
                       <li><span>Date & Time</span> <div class="arrow"></div></li>
-                      <li><span>Patient's Detail</span> <div class="arrow"></div></li>
+                      <li class="active"><span>Patient's Detail</span> <div class="arrow"></div></li>
                       <li><span>Verify</span></li>
                     </ul>
                   </div>
                   <!-- end tab button -->
                   
-                  <div class="docinfo-tab-content choose-loc">   
+                  <div class="docinfo-tab-content contact-detail">   
                     
-                    <?php for ($i=1; $i <= 2 ; $i++) { ?>
-                    <!-- choose location -->
+                    <!-- choose time -->
                     <div>
-                      <div class="place"><b>Place</b> Klinik Medika Lestari - Taman Palem</div>
-                      <div class="addr">
-                        <b>Address</b>
-                        <p>Jl. Raya Gubeng no. 70, Gubeng, Kota SBY, Jawa Timur 60281</p>
-                        <p>Indonesia</p>
-                      </div>
-                      <div class="practice">
-                        <h5>Practice Hours</h5>
-                        <b>Monday - Saturday</b>
-                        <p>8AM - 11AM</p>
-                      </div>
-                      <div class="choose-button">
-                        <input class="btn" value="Choose this location" name="" type="button" />
-                      </div>
+                      <h5>Contact Detail</h5>
                     </div>
-                    <!-- end choose location -->
-                    <?php } ?> 
+                    
+                    <ul class="take-care">
+                      <li>
+                        <input name="" type="checkbox" value="" />
+                        <span>Please take care of me</span>
+                      </li>
+                      <li>
+                        <input name="" type="checkbox" value="" />
+                        <span>Please take care of my family/friend</span>
+                      </li>
+                    </ul>
+                    
+                    <div>
+                      <ul>
+                      
+                        <!-- row -->
+                        <li class="contact-detail-row">
+                          <b>Name</b>
+                          <input name="" type="text" />
+                        </li>
+                        <!-- end row -->
+                        
+                        <!-- row -->
+                        <li class="contact-detail-row">
+                          <b>Email</b>
+                          <input name="" type="text" />
+                        </li>
+                        <!-- end row -->
+                        
+                        <!-- row -->
+                        <li class="contact-detail-row">
+                          <b>Mobile Phone</b>
+                          <input name="" type="text" />
+                        </li>
+                        <!-- end row -->
+                        
+                        <!-- row -->
+                        <li class="contact-detail-row">
+                          <b>Location</b>
+                          <select>
+                            <option value="1"> </option>
+                          </select>
+                        </li>
+                        <!-- end row -->
+                        
+                        <!-- row -->
+                        <li class="contact-detail-row" id="pilihtanggal">
+                          <b>Birthday</b>
+                          <input name="" type="text" class="choosedate" />
+                        </li>
+                        <!-- end row -->
+                        
+                        <!-- row -->
+                        <li class="contact-detail-row">
+                          <b>Gender</b>
+                          <select>
+                            <option value="1"> </option>
+                          </select>
+                        </li>
+                        <!-- end row -->
+                        
+                        <!-- row -->
+                        <li class="contact-detail-row">
+                          <input name="" class="btn" value="Continue" type="button" />
+                        </li>
+                        <!-- end row -->
+                        
+                      </ul>
+                    </div>
                     
                   </div>                  
                 </li>

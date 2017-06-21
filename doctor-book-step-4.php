@@ -67,37 +67,48 @@
               	  <!-- tab button -->
                   <div class="docinfo-step">
                     <ul>
-                      <li class="active"><span>Location</span> <div class="arrow"></div></li>
+                      <li><span>Location</span> <div class="arrow"></div></li>
                       <li><span>Date & Time</span> <div class="arrow"></div></li>
                       <li><span>Patient's Detail</span> <div class="arrow"></div></li>
-                      <li><span>Verify</span></li>
+                      <li class="active"><span>Verify</span></li>
                     </ul>
                   </div>
                   <!-- end tab button -->
                   
-                  <div class="docinfo-tab-content choose-loc">   
+                  <div class="docinfo-tab-content book-verify">   
                     
-                    <?php for ($i=1; $i <= 2 ; $i++) { ?>
-                    <!-- choose location -->
-                    <div>
-                      <div class="place"><b>Place</b> Klinik Medika Lestari - Taman Palem</div>
-                      <div class="addr">
-                        <b>Address</b>
-                        <p>Jl. Raya Gubeng no. 70, Gubeng, Kota SBY, Jawa Timur 60281</p>
-                        <p>Indonesia</p>
-                      </div>
-                      <div class="practice">
-                        <h5>Practice Hours</h5>
-                        <b>Monday - Saturday</b>
-                        <p>8AM - 11AM</p>
-                      </div>
-                      <div class="choose-button">
-                        <input class="btn" value="Choose this location" name="" type="button" />
-                      </div>
+                    <div class="place-to-visit">
+                      <h5>Place to visit</h5>
                     </div>
-                    <!-- end choose location -->
-                    <?php } ?> 
                     
+                    <div>
+                      <h4>Klinik Medika Lestari - Taman Palem</h4>
+                      <p>Taman Palem Lestari Blok D10/17</p>
+                      <p>Cengkareng, Jakarta Barat, Jakarta,</p>
+                      <p>Indonesia 11730</p>
+                      <p><h5>Aug 31, 2016 - 8:00 PM</h5><span>1st Option</span></p>
+                      <p><h5>Sep 1, 2016 - 8:00 PM</h5><span>2nd Option</span></p>
+                    </div>
+                    
+                    <div>
+                      <h3>Patient's Detail</h3>
+                      <h4>Mr. Ken Girisya</h4>
+                      <p>+62 812-23 1234 28</p>
+                      <p>Taman Palem Lestari Blok D10/17</p>
+                      <p>Cengkareng, Jakarta Barat, Jakarta,</p>
+                      <p>Indonesia 11730</p>
+                    </div>
+                    
+                    <div class="agree">
+                      <p>By Clicking "Book Doctor"</p>
+                      <p>I confirm that i have agreed to LiveWell's</p>
+                      <p><a href="javascript:void(0)">Terms & Conditions</a> and <a href="javascript:void(0)">Privacy Policy</a></p>
+                    </div>
+                    
+                    <div class="book-button">
+                      <input class="btn" value="Book Doctor" name="" type="button">
+                    </div>
+ 
                   </div>                  
                 </li>
                 <!-- end info tab -->
