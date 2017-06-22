@@ -12,8 +12,7 @@
             <div class="breadcrumb">
               <ul>
                 <li><a class="fa fa-chevron-right" href=" ">Home</a></li>
-                <li><a class="fa fa-chevron-right" href="javascript:void(0)">Find Doctors</a></li>
-                <li><span>Cardiology</span></li>
+                <li><span>Find Facilities</span></li>
               </ul>
             </div>
 
@@ -29,20 +28,20 @@
         <ul class="c-split-1 clearenter">
           <li>
             <div class="docadv-detail">
-              <h1><b>216</b> Doctors found</h1>
+              <h1><b>Filter</b> Facilities</h1>
               
               <!-- filter -->
               <ul class="filter">
                 <li>
-                  <div class="name">Speciality / condition</div>
-                  <select name="">
-                    <option value="1">Cardiology</option>
-                  </select>
-                </li>
-                <li>
                   <div class="name">Location</div>
                   <select name="">
                     <option value="1">Province, city</option>
+                  </select>
+                </li>
+                <li>
+                  <div class="name">Type</div>
+                  <select name="">
+                    <option value="1">Any</option>
                   </select>
                 </li>
                 <li>
@@ -64,7 +63,7 @@
               <!-- filter -->
               <ul class="filter">
                 <li class="exp">
-                  <div class="name">Experience</div>
+                  <div class="name">Established</div>
                   <input name="" type="text" /> <span>years</span>
                 </li>
                 <li>
@@ -83,20 +82,20 @@
       
       
       <!-- section 3 -->
-	  <div class="vmodule doclist">
+	  <div class="vmodule doclist rslist">
         <ul class="c-split-2 clearenter">
         
           <!-- list -->
           <?php for ($i=1; $i <= 10 ; $i++) { ?>
           <li>
             <div class="doclist-detail">
-			  <a href="javascript:void(0)" class="flex_ori">
+			  <a href="javascript:void(0)" class="flex_lazy">
                 <img data-original="img/doctor-<?php echo rand(1, 7); ?>.jpg" />
               </a>
               <div class="doclist-info content_center">
                 <span>
-                  <h2 class="doc-name">Dr.Andreas Harry</h2>
-                  <h3 class="doc-speciality">Cardiology</h3>
+                  <h2 class="doc-name">Rumah Sakit Pondok Indah</h2>
+                  <div class="doc-rs fa fa-map-marker" aria-hidden="true">Pondok Indah, Jakarta Selatan</div>
                   <ul class="doc-rate">
                     <li><i class="fa fa-star" aria-hidden="true"></i></li>
                     <li><i class="fa fa-star" aria-hidden="true"></i></li>
@@ -105,12 +104,8 @@
                     <li><i class="fa fa-star" aria-hidden="true"></i></li>
                     <li>(12345)</li>
                   </ul>
-                  <div class="doc-rs fa fa-map-marker" aria-hidden="true">Rumah Sakit Gading Pluit</div>
                   <ul class="doc-btn">
-                    <li><a class="btn doc-btn-detail">Detail</a></li>
-                    <li><a class="btn doc-btn-compare">Compare</a></li>
-                    <li><a class="btn doc-btn-book">Book</a></li>
-                    <li><a class="btn doc-btn-give-rate"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+                    <li><a class="btn doc-btn-rate"><i class="fa fa-star" aria-hidden="true"></i></a></li>
                   </ul>
                 </span>
               </div>
@@ -130,5 +125,4 @@
   </ul>
 </section>
 
-<?php require ('inc/doc-compare.php')?>
 <?php require ('inc/footer.php')?>

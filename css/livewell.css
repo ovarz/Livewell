@@ -522,7 +522,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b4e5', end
 .doc-btn .doc-btn-give-rate{background-image:linear-gradient(to bottom, #f7951d 50%, #00b3e3 50%);}
 
 @media screen and (min-width:300px) and (max-width:1023px){
-  .doclist-detail > .flex_ori{display:none;}
   .doclist > ul > li{width:calc(100% - 10px) !important;}	
 
   .docadv-detail > *{padding:10px 20px;}
@@ -533,12 +532,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b4e5', end
 }
 
 @media screen and (min-width:300px) and (max-width:567px){
+  .doclist-detail > .flex_ori, .doclist-detail > .flex_lazy{display:none;}
   .doclist-detail > .doclist-info > span{padding:20px; margin:0;}  
 }
 
 @media screen and (min-width:568px){
   .doclist-detail > *{height:225px;}
-  .doclist-detail > .flex_ori{position:absolute; top:0; left:0; width:150px; display:block;}
+  .doclist-detail > .flex_ori, .doclist-detail > .flex_lazy{width:150px; position:absolute; top:0; left:0; display:block;}
   .doclist-detail > .doclist-info{margin-left:150px;}
   .doclist-detail > .doclist-info > span{margin-left:20px;}
 }
@@ -690,3 +690,10 @@ box-shadow:2px 2px 2px #BDBDBD; -moz-box-shadow:2px 2px 2px #BDBDBD; -webkit-box
   .dcl-detail .doc-btn .btn{font-size:12px;}
   .dcl-detail .doc-btn .fa-star{font-size:15px;}
 }
+/* end doctor compare */
+
+
+
+/* hospital list */
+.rslist .doc-btn .doc-btn-rate, .rslist .doc-btn .doc-btn-give-rate{padding:8px 60px;}
+/* end hospital list */

@@ -17,7 +17,7 @@
               <!-- row -->
               <div>
 			    <div class="thumb flex_ori">
-				  <img src="img/doctor-1.jpg" />              
+				  <img data-original="img/doctor-1.jpg" />              
                 </div>
                 <h2 class="doc-name">Dr. Albert Teddy</h2>
                 <h3 class="doc-speciality">Cardiology</h3>
@@ -98,5 +98,4 @@
   </ul>
 </section>
 
-<?php require ('inc/doc-compare.php')?>
 <?php require ('inc/footer.php')?>
