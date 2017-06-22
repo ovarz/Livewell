@@ -509,17 +509,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b4e5', end
 	
 .doclist-detail{background:#edf2f6; position:relative;}
 .doclist-info > span > *{padding:5px 0;}
-.doclist-info > span > h2{font-size:24px; color:#424242; font-weight:700;}
-.doclist-info > span > h3{font-size:18px; color:#00b3e3;}
-.doclist-info > span > .doc-rs{font-weight:700; font-family:'Lato', sans-serif;}
-.doclist-info > span > .doc-rs:before{margin-right:10px; font:normal normal normal 14px/1 FontAwesome;}
-.doclist-info > span > .doc-btn > li{float:left; margin-right:5px;}
-.doclist-info > span > .doc-btn .btn{padding:8px; font-weight:400; text-transform:uppercase;}
-.doclist-info > span > .doc-btn .fa-star{font-size:17px;}
-.doclist-info > span > .doc-btn .doc-btn-detail, .doclist-info > span > .doc-btn .doc-btn-rate{background-image:linear-gradient(to bottom, #707f90 50%, #00b3e3 50%);}
-.doclist-info > span > .doc-btn .doc-btn-compare{background-image:linear-gradient(to bottom, #edf2f6 50%, #00b3e3 50%); color:#707f90 !important; border:1px solid #707f90; padding:7px;}
-.doclist-info > span > .doc-btn .doc-btn-compare:hover{color:#FFF !important; border:1px solid #00b3e3;}
-.doclist-info > span > .doc-btn .doc-btn-give-rate{background-image:linear-gradient(to bottom, #f7951d 50%, #00b3e3 50%);}
+.doc-name{font-size:24px; color:#424242; font-weight:700;}
+.doc-speciality{font-size:18px; color:#00b3e3;}
+.doc-rs{font-weight:700; font-family:'Lato', sans-serif;}
+.doc-rs:before{margin-right:10px; font:normal normal normal 14px/1 FontAwesome;}
+.doc-btn > li{float:left; margin-right:5px;}
+.doc-btn .btn{padding:8px; font-weight:400; text-transform:uppercase;}
+.doc-btn .fa-star{font-size:17px;}
+.doc-btn .doc-btn-detail, .doc-btn .doc-btn-rate{background-image:linear-gradient(to bottom, #707f90 50%, #00b3e3 50%);}
+.doc-btn .doc-btn-compare{background-image:linear-gradient(to bottom, #edf2f6 50%, #00b3e3 50%); color:#707f90 !important; border:1px solid #707f90; padding:7px;}
+.doc-btn .doc-btn-compare:hover{color:#FFF !important; border:1px solid #00b3e3;}
+.doc-btn .doc-btn-give-rate{background-image:linear-gradient(to bottom, #f7951d 50%, #00b3e3 50%);}
 
 @media screen and (min-width:300px) and (max-width:1023px){
   .doclist-detail > .flex_ori{display:none;}
@@ -669,3 +669,24 @@ box-shadow:2px 2px 2px #BDBDBD; -moz-box-shadow:2px 2px 2px #BDBDBD; -webkit-box
   .docinfo .book-verify h5{display:block;}
 }
 /* end book doctor */
+
+
+
+/* doctor compare */
+.doc-compare-list{padding-bottom:30px;}
+.doc-compare-list > h1{max-width:1025px; margin:0 auto; padding:20px; padding-bottom:10px; box-sizing:border-box;}
+.doc-compare-list > h1 > b{color:#00b3e3;}
+.dcl-detail{background:#EDF2F6;}
+.dcl-detail > div{padding:20px 0; margin:0 20px; border-top:1px solid #E0E0E0;}
+.dcl-detail > div:first-child{border-top:0;}
+.dcl-detail > div > *{margin-bottom:10px; display:block;}
+.dcl-detail > .book-doctor-btn{text-align:center;}
+.dcl-detail > .book-doctor-btn > a{display:inline-block; text-transform:uppercase;}
+.dcl-detail > div:not(:first-child) > ul > li:not(:first-child){padding-top:5px;}
+.dcl-detail > div > .thumb{background:0; text-align:center;}
+
+@media screen and (min-width:300px) and (max-width:1023px){
+  .dcl-detail{margin:0 10px;}
+  .dcl-detail .doc-btn .btn{font-size:12px;}
+  .dcl-detail .doc-btn .fa-star{font-size:15px;}
+}

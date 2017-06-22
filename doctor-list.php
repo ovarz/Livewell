@@ -96,7 +96,7 @@
               <div class="doclist-info content_center">
                 <span>
                   <h2 class="doc-name">Dr.Andreas Harry</h2>
-                  <h3>Cardiology</h3>
+                  <h3 class="doc-speciality">Cardiology</h3>
                   <ul class="doc-rate">
                     <li><i class="fa fa-star" aria-hidden="true"></i></li>
                     <li><i class="fa fa-star" aria-hidden="true"></i></li>

@@ -7,3 +7,4 @@
 9 = doctor-book-step-3.php
 10 = doctor-book-step-3-done.php
 11 = doctor-book-step-4.php
+12 = doctor-compare.php
