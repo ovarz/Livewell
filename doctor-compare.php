@@ -17,7 +17,7 @@
               <!-- row -->
               <div>
 			    <div class="thumb flex_ori">
-				  <img data-original="img/doctor-1.jpg" />              
+				  <img data-original="img/doctor-<?php echo rand(1, 7); ?>.jpg" />              
                 </div>
                 <h2 class="doc-name">Dr. Albert Teddy</h2>
                 <h3 class="doc-speciality">Cardiology</h3>

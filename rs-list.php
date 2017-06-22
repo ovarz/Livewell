@@ -90,7 +90,7 @@
           <li>
             <div class="doclist-detail">
 			  <a href="javascript:void(0)" class="flex_lazy">
-                <img data-original="img/doctor-<?php echo rand(1, 7); ?>.jpg" />
+                <img data-original="img/rs-<?php echo rand(1, 7); ?>.jpg" />
               </a>
               <div class="doclist-info content_center">
                 <span>
