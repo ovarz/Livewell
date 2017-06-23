@@ -143,6 +143,53 @@ var mobile_menu_open = function(){
 
 
 
+/* rs slideshow */
+$('.rs-slide .rs-preview').slick({
+  lazyLoad: 'ondemand',
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: true,
+  fade: true,
+  asNavFor: '.rs-nav'
+});
+$('.rs-slide .rs-nav').slick({
+  lazyLoad: 'ondemand',
+  slidesToShow: 2,
+  slidesToScroll: 1,
+  asNavFor: '.rs-preview',
+  arrows: false,
+  dots: false,
+  centerMode: true,
+  focusOnSelect: true,
+  responsive:[{
+	breakpoint:1025,
+	settings:{
+	  slidesToShow:4,
+	}
+  },
+  {
+	breakpoint:769,
+	settings:{
+	  slidesToShow:3,
+	}
+  },
+  {
+	breakpoint:415,
+	settings:{
+	  slidesToShow:2,
+	}
+  },
+  {
+	breakpoint:376,
+	settings:{
+	  slidesToShow:1,
+	}
+  }]
+});
+/* end rs slideshow */
+
+
+
 $(document).ready(function(){
   flex_thumb();
   refresh_up();

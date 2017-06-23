@@ -59,7 +59,7 @@ ol::before, ol::after{content:''; display:block; overflow:hidden; visibility:hid
 .breadcrumb > ul > li > .fa{padding-right:12px; color:#718091; font-family:'Lato', sans-serif;}
 .breadcrumb > ul > li > .fa:hover, .breadcrumb > ul > li > span{color:#00b3e3;}
 .breadcrumb > ul > li > .fa:before{position:absolute; top:8px; right:0; font:normal normal normal 14px/1 FontAwesome;}
-@media screen and (min-width:300px) and (max-width:1023px){.breadcrumb{padding:5px 10px;}}
+@media screen and (min-width:300px) and (max-width:1023px){.breadcrumb{padding:5px 0;}}
 @media screen and (min-width:1024px){.breadcrumb > ul > li:first-child{margin-left:0;}}
 .clearenter::after, ul::after, ol::after, .clearboth{clear:both;}
 .content_center{display:-webkit-flex; display:-ms-flexbox; display:flex; -webkit-align-content:center; align-content:center; -webkit-align-items:center; 
@@ -598,8 +598,8 @@ filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', en
 }
 
 @media screen and (min-width:568px) and (max-width:1023px){
-  .docprofile > div{padding:0 20px 20px;}
-  .docprofile > div > .flex_ori{left:20px;}
+  .docprofile > div{padding:0 10px 20px;}
+  .docprofile > div > .flex_ori{left:10px;}
 }
 
 @media screen and (min-width:1024px){ 
@@ -695,5 +695,85 @@ box-shadow:2px 2px 2px #BDBDBD; -moz-box-shadow:2px 2px 2px #BDBDBD; -webkit-box
 
 
 /* hospital list */
-.rslist .doc-btn .doc-btn-rate, .rslist .doc-btn .doc-btn-give-rate{padding:8px 60px;}
+.rslist .doc-btn .doc-btn-rate, .rslist .doc-btn .doc-btn-give-rate,
+.rsdetail .doc-btn .doc-btn-rate, .rsdetail .doc-btn .doc-btn-give-rate{padding:8px 60px;}
 /* end hospital list */
+
+
+
+/* hospital detail */
+.rsdetail-info > span{width:100%;}
+.rsdetail-info > span > *{margin-bottom:5px;}
+
+.rs-slide .rs-title{background:#CC0000; color:#FFF;}
+.rs-slide .rs-title > a{display:block; width:100%; text-align:center;}
+.rs-slide .rs-title > a > span{display:inline-block; padding:5px; padding-right:20px; position:relative;}
+.rs-slide .rs-title > a > span > i{position:absolute; top:4px; right:0px; display:none; font-size:18px;}
+.rs-slide .rs-title > a:not(.open-rs) > span > .fa-caret-up,
+.rs-slide .rs-title > a.open-rs > span > .fa-caret-down{display:block;}
+
+.rsdetail-info .rs-slide{padding-top:10px;}
+.rs-slide .slick-slide img{width:100%;}
+.rs-slide .slick-next, .rs-slide .slick-prev{top:calc(50% - 12px); background:#FFF;
+-moz-border-radius:24px; -webkit-border-radius:24px; border-radius:24px;}
+.rs-slide .slick-next:before, .rs-slide .slick-prev:before{color:#00b3e3;}
+.rs-slide .slick-prev{left:10px;}
+.rs-slide .slick-next{right:10px;}
+.rs-slide .rs-slide-list{position:relative;}
+.rs-slide .rs-slide-list .name{position:absolute; bottom:0;}
+.rs-slide .rs-slide-list .name > h3{padding:2px; color:#FFF; font-size:14px; font-weight:bold;}
+
+.rs-slide .rs-preview{background:#212121;}
+.rs-slide .rs-preview .slick-list{padding:0;}
+.rs-slide .rs-preview .rs-slide-list .flex_thumb{height:158px;}
+
+.rs-slide .rs-nav{padding:2px 0;}
+.rs-slide .rs-nav .slick-slide{border:2px solid #FFF;}
+.rs-slide .rs-nav .rs-slide-list .flex_thumb{height:100px;}
+
+.rsinfo-detail > .have-link{position:relative;}
+.rsinfo-detail > .have-link .content_center{position:absolute; top:0; right:0; height:100%; width:64px;}
+@media screen and (min-width:300px) and (max-width:567px){
+  .rsdetail-info{padding:0 10px;}
+}
+
+@media screen and (min-width:360px){
+.rs-slide .rs-preview .rs-slide-list .flex_thumb{height:180px;}
+.rs-slide .rs-nav .rs-slide-list .flex_thumb{height:122px;}
+}
+
+@media screen and (min-width:375px){
+.rs-slide .rs-preview .rs-slide-list .flex_thumb{height:188px;}
+.rs-slide .rs-nav .rs-slide-list .flex_thumb{height:130px;}
+}
+
+@media screen and (min-width:414px){
+.rs-slide .rs-preview .rs-slide-list .flex_thumb{height:210px;}
+.rs-slide .rs-nav .rs-slide-list .flex_thumb{height:75px;}
+}
+
+@media screen and (min-width:568px){
+.rs-slide .rs-preview .rs-slide-list .flex_thumb{height:297px;}
+.rs-slide .rs-nav .rs-slide-list .flex_thumb{height:78px;}
+}
+
+@media screen and (min-width:667px){
+.rs-slide .rs-preview .rs-slide-list .flex_thumb{height:353px;}
+.rs-slide .rs-nav .rs-slide-list .flex_thumb{height:97px;}
+}
+
+@media screen and (min-width:736px){
+.rs-slide .rs-preview .rs-slide-list .flex_thumb{height:392px;}
+.rs-slide .rs-nav .rs-slide-list .flex_thumb{height:110px;}
+}
+
+@media screen and (min-width:738px){
+.rs-slide .rs-preview .rs-slide-list .flex_thumb{height:410px;}
+.rs-slide .rs-nav .rs-slide-list .flex_thumb{height:116px;}
+}
+
+@media screen and (min-width:1024px){
+.rs-slide .rs-preview .rs-slide-list .flex_thumb{height:225px;}
+.rs-slide .rs-nav .rs-slide-list .flex_thumb{height:82px;}
+}
+/* end hospital detail */
