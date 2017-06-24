@@ -733,6 +733,18 @@ box-shadow:2px 2px 2px #BDBDBD; -moz-box-shadow:2px 2px 2px #BDBDBD; -webkit-box
 
 .rsinfo-detail > .have-link{position:relative;}
 .rsinfo-detail > .have-link .content_center{position:absolute; top:0; right:0; height:100%; width:64px;}
+
+.rsinfo-doctor > ul > li{padding:10px 0; border-bottom:1px solid #E0E0E0;}
+.rsinfo-doctor > ul > li > div{position:relative;}
+.rsinfo-doctor .flex_thumb, .rsinfo-doctor .doc-btn{position:absolute; top:0; width:64px; height:64px;}
+.rsinfo-doctor .flex_thumb{left:0;}
+.rsinfo-doctor .doc-btn{right:0;}
+.rsinfo-doctor .doc-btn > .btn{width:100%; text-align:center;}
+.rsinfo-doctor .doclist-info{margin:0 70px;}
+.rsinfo-doctor .doclist-info > span{margin-left:10px;}
+.rsinfo-doctor .doclist-info > span > *{padding:2px 0;}
+.rsinfo-doctor .doc-name, .rsinfo-doctor .doc-speciality{font-size:14px;}
+.rsinfo-doctor .load-more{border-bottom:0; padding-bottom:0;}
 @media screen and (min-width:300px) and (max-width:567px){
   .rsdetail-info{padding:0 10px;}
 }

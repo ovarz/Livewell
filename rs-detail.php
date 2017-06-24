@@ -167,7 +167,7 @@
                   <div class="docinfo-tab tabception">
                     <ul class="tabs">
                       <li><a itemprop="url" alt="link_title" href="#rsinfo-detail">Information</a></li>
-                      <li><a itemprop="url" alt="link_title" href="#rsinfo-location">Doctor</a></li>
+                      <li><a itemprop="url" alt="link_title" href="#rsinfo-doctor">Doctor</a></li>
                       <li><a itemprop="url" alt="link_title" href="#rsinfo-review">Review</a></li>
                     </ul>
                   </div>
@@ -219,33 +219,40 @@
                     </div>
                   </div>
                   
-                  <div class="docinfo-tab-content rsinfo-location" id="rsinfo-location">   
-                    <div>
-                      <ul class="info-peta">
-                        <li><i class="fa fa-map-marker" aria-hidden="true"></i> Rumah Sakit Pusat Pertamina</li>
-                        <li><a href="javascript:void(0)">open maps</a></li>
-                      </ul>
-                      <div class="rs-photo">
-                        <img src="img/rs-photo.jpg" />
-                      </div>
-                      <b>Phone</b>
-                      <div>+62 (031) 503-1333</div>
-                    </div>
-                    <div>
-                      <b>Homepage</b>
-                      <div><a href="javascript:void(0)">http://siloamhospitals.com</a></div>
-                    </div>
-                    <div>
-                      <b>Address</b>
-                      <div>
-                        Jl. Raya Gubeng no. 70, Gubeng,<br />
-                        Kota SBY, Jawa Timur 60281<br />
-                        Indonesia
-                      </div>
-                    </div>
-                    <div>
-                      <b>Practice hours</b>
-                      <div>8AM - 11AM</div>
+                  <div class="docinfo-tab-content rsinfo-doctor" id="rsinfo-doctor">   
+                    <ul>
+                    
+                      <!-- list -->
+          			  <?php for ($i=1; $i <= 10 ; $i++) { ?>
+                      <li>
+                        <div>
+                          <div class="flex_thumb"><img src="img/doctor-<?php echo rand(1, 7); ?>.jpg" /></div>
+                          <div class="doclist-info content_center">
+                            <span>
+                              <h2 class="doc-name">Dr.Andreas Harry</h2>
+                              <h3 class="doc-speciality">Cardiology</h3>
+                              <ul class="doc-rate">
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li>(12345)</li>
+                              </ul>
+                            </span>
+                          </div>
+                          <div class="doc-btn content_center">
+                            <a class="btn doc-btn-give-rate"><i class="fa fa-star" aria-hidden="true"></i></a>
+                          </div>
+                        </div>
+                      </li>
+                      <?php } ?> 
+          			  <!-- list -->
+          
+                    </ul>
+                    
+                    <div class="load-more">
+                      <input name="" class="btn" value="Load More" type="button" />
                     </div>
                   </div>
                   

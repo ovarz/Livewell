@@ -9,4 +9,4 @@
 11 = doctor-book-step-4.php
 12 = doctor-compare.php
 13 = rs-list.php
-14 = rs-detail.php
+14, 15, 16 = rs-detail.php
