@@ -79,9 +79,6 @@ ol::before, ol::after{content:''; display:block; overflow:hidden; visibility:hid
 .detail-popup h1, .detail-popup h2{font-weight:bold;}
 .detail-popup > h1{padding:10px 20px; color:#FFF; background-color:#00b3e3;}
 .detail-popup > div{padding:15px 20px;}
-.detail-popup > div > *{padding:5px 0;}
-.detail-popup > div > ul{padding-left:20px; list-style:square;}
-.detail-popup > div > ul > li{padding:5px 0;}
 
 .doc-compare-popup > ul > li{float:left;}
 .doc-rate > li{float:left; margin-right:5px;}
@@ -899,6 +896,10 @@ box-shadow:2px 2px 2px #BDBDBD; -moz-box-shadow:2px 2px 2px #BDBDBD; -webkit-box
 .ins-detail-button > ul > li:last-child{padding-right:0;}
 .ins-detail-button > ul > li > a{width:100%; box-sizing:border-box; text-align:center;}
 
+#detail-insurance > div > *{padding:5px 0;}
+#detail-insurance > div > ul{padding-left:20px; list-style:square;}
+#detail-insurance > div > ul > li{padding:5px 0;}
+
 .insinfo-benefit > div > ul{padding-left:20px; list-style:square;}
 .insinfo-benefit > div > ul > li{padding:5px 0;}
 
@@ -995,3 +996,35 @@ box-shadow:2px 2px 2px #BDBDBD; -moz-box-shadow:2px 2px 2px #BDBDBD; -webkit-box
 .welcome-content > div > h2{color:#00b3e3; text-transform:uppercase; font-weight:700; margin-bottom:10px;}
 .welcome-content > div > p{margin-bottom:20px;}
 /* end welcome */
+
+
+
+/* login popup */
+#popup-login .login-content > *{margin-top:20px;}
+
+#popup-login .choose-user{text-align:center;}
+#popup-login .choose-user > ul{display:inline-block;}
+#popup-login .choose-user > ul > li{float:left; padding:5px; box-sizing:border-box; border-left:0;}
+#popup-login .choose-user > ul > li > a{display:block; text-align:center; background:0 !important;}
+#popup-login .choose-user > ul > li > a > span{display:inline-block; width:80px; height:80px; overflow:hidden; background-color:#718091;
+-moz-border-radius:80px; -webkit-border-radius:80px; border-radius:80px;}
+#popup-login .choose-user > ul > li > a.active > span{background-color:#00b3e3;}
+#popup-login .choose-user > ul > li > a > div{text-align:center; color:#718091; margin-top:10px;}
+#popup-login .choose-user > ul > li > a.active > div{color:#00b3e3;}
+
+#popup-login .login-form{border:1px solid #BDBDBD; overflow:hidden;
+-moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px;}
+#popup-login .login-form > input{padding:10px; padding-left:60px; box-sizing:border-box; display:block; width:100%;}
+#popup-login .login-form > .insert-email{border-bottom:1px solid #E0E0E0; background:url(../img/icon-mail.png) no-repeat 17px center;}
+#popup-login .login-form > .insert-pass{ background:url(../img/icon-lock.png) no-repeat 23px center;}
+#popup-login .login-forgot{text-align:center;}
+#popup-login .login-button .btn{width:100%; text-align:center; box-sizing:border-box;}
+
+#popup-login .login-socmed{padding:15px 20px; background:#EEE; border:1px solid #E0E0E0;}
+#popup-login .login-socmed > *{margin:5px 0;}
+#popup-login .login-socmed > h6{text-align:center;}
+#popup-login .login-socmed > a{display:block; width:100%; box-sizing:border-box; text-align:center;}
+#popup-login .login-socmed > .login-fb{background-image:linear-gradient(to bottom, #49689d 50%, #707f90 50%);}
+#popup-login .login-socmed > .login-go{background-image:linear-gradient(to bottom, #e0493d 50%, #707f90 50%);}
+
+/* end login popup */

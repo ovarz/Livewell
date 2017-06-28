@@ -57,8 +57,8 @@
                       <ul>
                         <li class="ins-btn-rate"><a class="btn" href="javascript:void(0)"><i class="fa fa-star" aria-hidden="true"></i></a></li>
                         <li class="ins-btn-detail">
-                          <a class="btn popup-detail" href="#detail-popup">Detail</a>
-                          <div id="detail-popup" class="detail-popup">
+                          <a class="btn popup-detail" href="#detail-insurance">Detail</a>
+                          <div id="detail-insurance" class="detail-popup">
                             <h1>Detail</h1>
                             <div>
                               <h2>Manfaat Umum</h2>
