@@ -36,10 +36,71 @@
         <div class="top-login">
           <ul>
             <?php if($subpage == 'before-login') { ?>
-            <li><a class="btn btn-2" href="javascript:void(0)">Register</a></li>
+            <li>
+              <a class="btn btn-2 popup-detail" href="#popup-register">Register</a>
+              <div id="popup-register" class="detail-popup popup-loginregis">
+                <h1>Register</h1>
+                <div>
+                  
+                  <!-- tab button -->
+                  <div class="choose-user tabception">
+                    <ul class="tabs">
+                      <li>
+                        <a href="#cu-doctor">
+                          <span><img src="img/icon-doctor.png" /></span>
+                          <div>Doctor</div>
+                        </a>                      
+                      </li>
+                      <li>
+                        <a href="#cu-patient">
+                          <span><img src="img/icon-patient.png" /></span>
+                          <div>Patient</div>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- end tab button -->
+                  
+                  
+                  
+                  <div id="cu-doctor" class="login-content">
+                    
+                    <div class="login-form">
+                      <input name="" type="text" class="insert-phone" placeholder="Mobile Number" />
+                      <input name="" type="text" class="insert-email" placeholder="Email" />
+                      <input name="" type="password" class="insert-pass" placeholder="Password" />
+                    </div>
+                    
+                    <div class="login-agree">
+                      <input name="" type="checkbox" value="" />
+                      <span>I agree to LiveWell's <a href="javascript:void(0)" target="_blank">Terms & Conditions</a> and <a href="javascript:void(0)" target="_blank">Privacy Policy</a></span>
+                    </div>
+                    
+                    <div class="login-button">
+                      <input name="" class="btn" value="Create account" type="button" />
+                    </div>
+                    
+                    <div class="login-socmed">
+                      <h6>or create account with</h6>
+                      <a class="btn login-fb" href="javascript:void(0)">Facebook</a>
+                      <a class="btn login-go" href="javascript:void(0)">Twitter</a>
+                    </div>
+                    
+                  </div>
+                  
+                  
+                  
+                  <div id="cu-patient">
+                    cu-patient
+                  </div>
+                  
+                </div>
+              </div>
+            </li>
+            
             <li>
               <a class="btn popup-detail" href="#popup-login">Login</a>
-              <div id="popup-login" class="detail-popup">
+              <div id="popup-login" class="detail-popup popup-loginregis">
                 <h1>Login</h1>
                 <div>
                   
