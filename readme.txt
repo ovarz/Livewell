@@ -19,3 +19,4 @@
 24 = welcome.php
 25 = click login button at header
 26 = click register button at header
+27 = register.php
