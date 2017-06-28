@@ -132,9 +132,12 @@
 </footer>
 
 <script src="js/livewell.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/fancybox/jquery.fancybox.js?v=2.1.5"></script>
+<link rel="stylesheet" type="text/css" href="css/fancybox/jquery.fancybox.css?v=2.1.5" media="screen" />
 <script type="text/javascript">
   $(".flex_ori > img").lazyload({effect:"fadeIn"});
   $(".flex_lazy > img").lazyload();
+  $('.popup-detail').fancybox();
 </script>
 
 </body>

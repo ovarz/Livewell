@@ -166,9 +166,9 @@
               	  <!-- tab button -->
                   <div class="docinfo-tab tabception">
                     <ul class="tabs">
-                      <li><a itemprop="url" alt="link_title" href="#rsinfo-detail">Information</a></li>
-                      <li><a itemprop="url" alt="link_title" href="#rsinfo-doctor">Doctor</a></li>
-                      <li><a itemprop="url" alt="link_title" href="#rsinfo-review">Review</a></li>
+                      <li><a href="#rsinfo-detail">Information</a></li>
+                      <li><a href="#rsinfo-doctor">Doctor</a></li>
+                      <li><a href="#rsinfo-review">Review</a></li>
                     </ul>
                   </div>
                   <!-- end tab button -->

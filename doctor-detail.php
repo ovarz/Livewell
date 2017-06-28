@@ -68,9 +68,9 @@
               	  <!-- tab button -->
                   <div class="docinfo-tab tabception">
                     <ul class="tabs">
-                      <li><a itemprop="url" alt="link_title" href="#docinfo-profile">Profile</a></li>
-                      <li><a itemprop="url" alt="link_title" href="#docinfo-location">Location</a></li>
-                      <li><a itemprop="url" alt="link_title" href="#docinfo-review">Review</a></li>
+                      <li><a href="#docinfo-profile">Profile</a></li>
+                      <li><a href="#docinfo-location">Location</a></li>
+                      <li><a href="#docinfo-review">Review</a></li>
                     </ul>
                   </div>
                   <!-- end tab button -->

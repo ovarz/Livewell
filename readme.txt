@@ -11,4 +11,9 @@
 13 = rs-list.php
 14, 15, 16 = rs-detail.php
 17 = insurance-search.php
-18 = insurance-list.php
+18, 19 = insurance-list.php
+20 = insurance-detail.php
+21 = insurance-confirm.php
+22 = article-list.php
+23 = article-detail.php
+24 = welcome.php

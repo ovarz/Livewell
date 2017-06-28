@@ -55,9 +55,24 @@
                     <td class="surgery">Rp 2.500.000 </td>
                     <td class="button">
                       <ul>
-                        <li class="ins-btn-rate"><a class="btn"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-                        <li class="ins-btn-detail"><a class="btn">Detail</a></li>
-                        <li class="ins-btn-req"><a class="btn">Request</a></li>
+                        <li class="ins-btn-rate"><a class="btn" href="javascript:void(0)"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+                        <li class="ins-btn-detail">
+                          <a class="btn popup-detail" href="#detail-popup">Detail</a>
+                          <div id="detail-popup" class="detail-popup">
+                            <h1>Detail</h1>
+                            <div>
+                              <h2>Manfaat Umum</h2>
+                              <ul>
+                                <li>Santunan rawat inap harian akan dibayarkan apabila tertanggung menjalani perawatan di rumah sakit sampai dengan maksimal sembilan puluh (90) hari per tahun polis untuk penyakit-penyakit yang dilindungi.</li>
+                                <li>Apabila tertanggung menjalani rawat inap di rumah sakit yang disebabkan oleh cedera yang ditanggung. Pembayaran faedah adalah untuk setiap harinya sampai dengan maksimal seratus delapan puluh (180) hari per tahun untuk rawat inap atas cedera yang ditanggung.</li>
+                                <li>Apabila tertanggung menjalani rawat inap di rumah sakit dalam unit perawatan intensif yang disebabkan penyakit yang ditanggung atau cedera yang ditanggung sampai dengan maksimal lima belas (15) hari per tahun polis.</li>
+                                <li>Apabila Tertanggung menjalani operasi pembedahan yang disebabkan oleh penyakit atau cedera yang ditanggung maka perusahaan akan membayarkan faedah pembedahan secara sekaligus namun tidak melebihi jumlah faedah pembedahan yang tertera pada daftar faedah untuk setiap rawat inap yang sama.</li>
+                                <li>Perusahaan akan membayarkan Faedah "No Claim Bonus" sebesar 25% (dua puluh lima persen) dari total premi tanpa bunga yang telah dibayarkan selama 24 (dua puluh empat) bulan berturut-turut dengan tunduk pada ketentuan yang tercantum didalam polis. Perhitungan "No Claim Bonus" akan dilakukan kembali untuk setiap 24 (dua puluh empat) bulan berikutnya terhitung sejak tanggal dikeluarkannya polis atau sejak tanggal pemulihan polis.</li>
+                              </ul>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="ins-btn-req"><a class="btn" href="javascript:void(0)">Request</a></li>
                       </ul>
                     </td>
                   </tr>
