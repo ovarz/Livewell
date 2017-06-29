@@ -120,5 +120,4 @@
   </ul>
 </section>
 
-<?php require ('inc/doc-compare.php')?>
 <?php require ('inc/footer.php')?>

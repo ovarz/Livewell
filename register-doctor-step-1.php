@@ -34,11 +34,15 @@
                 <!-- bio -->
                 <li class="docprofile">
                   <div>
-                    <h1>Hi, <span>Ken Girisya</span></h1>
-              	    <div class="flex_ori">
-                      <img data-original="img/doctor-<?php echo rand(1, 7); ?>.jpg" />
-                    </div> 
-                    <h6 class="note">Please Complete <span>Your Profile</span></h6>                
+                    <h1>Welcome <span>Doctor</span></h1>
+              	    <a href="javascript:void(0)" class="flex_ori">
+                      <img data-original="img/doctor-other.jpg" />
+                    </a>
+                    <div class="profile-form">
+                      <h6>Your Full Name</h6>
+                      <input name="" type="text" />
+                    </div>
+                    <h6 class="note">Please Complete <span>Your Profile</span></h6>                   
                   </div>
                 </li>
                 <!-- end bio -->
@@ -47,8 +51,8 @@
                 
                 <li class="docinfo">
                   <div class="uregis-bar">
-                    <span style="width:80%"></span>
-                    <div>80%</div>
+                    <span style="width:20%"></span>
+                    <div>20%</div>
                   </div>
                 </li>
                 
@@ -59,12 +63,33 @@
                     
                     <!-- section -->
                     <div>
- 					  <h4>Your Practice Location Info</h4>
+ 					  <h4>Basic Information</h4>
                       <ul>
                     
                         <!-- row -->
                         <li>
-                          <h5>Own Practice</h5>
+                          <h5>Prefix Academy Title</h5>
+                          <input name="" type="text" />
+                        </li>
+                        <!-- end row -->
+                      
+                        <!-- row -->
+                        <li>
+                          <h5>Suffix Academy Title</h5>
+                          <input name="" type="text" />
+                        </li>
+                        <!-- end row -->
+                      
+                        <!-- row -->
+                        <li>
+                          <h5>Your Gender</h5>
+                          <input name="" type="text" />
+                        </li>
+                        <!-- end row -->
+                      
+                        <!-- row -->
+                        <li>
+                          <h5>Language Spoken</h5>
                           <select name="">
                             <option value="1"></option>
                           </select>
@@ -72,8 +97,15 @@
                         <!-- end row -->
                       
                         <!-- row -->
+                        <li id="pilihtanggal">
+                          <h5>Birthday</h5>
+                          <input name="" class="choosedate" type="text" />
+                        </li>
+                        <!-- end row -->
+                      
+                        <!-- row -->
                         <li>
-                          <h5>Name of Clinic / Facility</h5>
+                          <h5>Gender</h5>
                           <select name="">
                             <option value="1"></option>
                           </select>
@@ -88,7 +120,7 @@
                     
                     <!-- section -->
                     <div>
- 					  <h4>Address</h4>
+ 					  <h4>Residential Address</h4>
                       <ul>
                     
                         <!-- row -->
@@ -115,7 +147,7 @@
                           </select>
                         </li>
                         <!-- end row -->
-                        
+                      
                         <!-- row -->
                         <li>
                           <h5>Country</h5>
@@ -124,10 +156,10 @@
                           </select>
                         </li>
                         <!-- end row -->
-                        
+                      
                         <!-- row -->
                         <li>
-                          <h5>Zip Core</h5>
+                          <h5>ZIP Code</h5>
                           <input name="" type="text" />
                         </li>
                         <!-- end row -->
@@ -145,37 +177,24 @@
                     
                         <!-- row -->
                         <li>
-                          <h5>Phone Number</h5>
+                          <h5>Street Address</h5>
                           <input name="" type="text" />
                         </li>
                         <!-- end row -->
-                        
+                      
                         <!-- row -->
                         <li>
-                          <h5>Schedule</h5>
+                          <h5>City</h5>
                           <input name="" type="text" />
-                        </li>
-                        <!-- end row -->
-                        
-                        <!-- row -->
-                        <li>
-                          <h5>Practising Certificate</h5>
-                          <input name="" type="text" />
-                        </li>
-                        <!-- end row -->
-                        
-                        <!-- row -->
-                        <li>
-                          <input name="" class="btn addqua" value="Add Practice Location" type="button" />
                         </li>
                         <!-- end row -->
                       
                       </ul>
                     </div>
                     <!-- end section -->
-
-
-
+                    
+                    
+                    
                     <!-- button -->
                     <div>
                       <input name="" class="btn" value="Continue" type="button" />
