@@ -1071,3 +1071,26 @@ box-shadow:2px 2px 2px #BDBDBD; -moz-box-shadow:2px 2px 2px #BDBDBD; -webkit-box
   .uregis .docprofile{max-width:400px;}  
 }
 /* end registration */
+
+
+
+/* profile */
+.profile-menu > ul{padding-top:10px;}
+.profile-menu > ul > li{padding-right:10px; padding-bottom:10px; float:left;}
+.profile-menu > ul > li > a{padding:0 20px;}
+.profile-menu > ul > li > a > div{padding:10px 0; padding-left:30px; background-repeat:no-repeat; background-position:center left;}
+.profile-menu > ul > li > a:not(.active){background-image:linear-gradient(to bottom, #707f90 50%, #757575 50%);}
+
+.profile-menu > ul > li > .m-profile > div{background-image:url(../img/m-profile.png);}
+.profile-menu > ul > li > .m-appointment > div{background-image:url(../img/m-appointment.png);}
+.profile-menu > ul > li > .m-insurance > div{background-image:url(../img/m-insurance.png);}
+.profile-menu > ul > li > .m-emr > div{background-image:url(../img/m-emr.png);}
+.profile-menu > ul > li > .m-favorites > div{background-image:url(../img/m-favorites.png);}
+.profile-menu > ul > li > .m-settings > div{background-image:url(../img/m-settings.png);}
+
+.m-profile-data > div{border-bottom:0;}
+.m-profile-data > div > h3{font-weight:700; padding-bottom:10px; border-bottom:1px solid #E0E0E0;}
+
+.m-profile-data > div > ul > li{padding:10px 0; border-top:1px solid #E0E0E0;}
+.m-profile-data .m-name{color:#00b3e3;}
+/* end profile */
