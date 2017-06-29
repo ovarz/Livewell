@@ -1030,3 +1030,40 @@ box-shadow:2px 2px 2px #BDBDBD; -moz-box-shadow:2px 2px 2px #BDBDBD; -webkit-box
 .popup-loginregis .login-socmed > .login-go{background-image:linear-gradient(to bottom, #e0493d 50%, #707f90 50%);}
 
 /* end login popup */
+
+
+
+/* registration */
+.uregis .docprofile{width:auto;}
+.uregis .docprofile h1{font-weight:700; text-align:center;}
+.uregis .docprofile h1 > span{color:#00b3e3;}
+.uregis .docprofile > div > .flex_ori{position:relative; margin:20px auto; display:block; width:150px; height:225px;}
+.uregis .docprofile .profile-form > *{padding-bottom:5px;}
+.uregis .docprofile .profile-form > h6{text-align:center;}
+.uregis .docprofile .profile-form > input{padding:10px; width:100%; min-width:250px; border:1px solid #E0E0E0; box-sizing:border-box;}
+
+.uregis .uregis-bar{position:relative; background:#9E9E9E; overflow:hidden; margin-bottom:10px;
+-moz-border-radius:15px; -webkit-border-radius:15px; border-radius:15px;}
+.uregis .uregis-bar > span{position:absolute; top:0; left:0; height:100%; z-index:1; background:#00b3e3;}
+.uregis .uregis-bar > div{position:relative; z-index:2; text-align:center; padding:10px; color:#FFF; font-weight:900;}
+
+.uregis .docinfo-tab-content > div{border-bottom:0;}
+.uregis .docinfo-tab-content > div > h4{padding:10px 0; border-bottom:1px solid #BDBDBD; color:#616161;}
+.uregis .docinfo-tab-content > div > ul > li{padding:10px 0;}
+.uregis .docinfo-tab-content > div > ul > li > h5{display:block; margin-bottom:5px;}
+.uregis .docinfo-tab-content > div > ul > li > input:not(.btn), 
+.uregis .docinfo-tab-content > div > ul > li > select{border:1px solid #E0E0E0; background-color:#FFF; padding:10px; width:100%; box-sizing:border-box;}
+
+@media screen and (min-width:300px) and (max-width:567px){
+  .uregis .docprofile > div > *{padding:0 10px;} 
+}
+
+@media screen and (min-width:300px) and (max-width:1023px){
+  .uregis .docinfo{padding-bottom:0;}
+  .uregis .uregis-bar{margin-bottom:0;}	
+}
+
+@media screen and (min-width:1024px){
+  .uregis .docprofile{max-width:400px;}  
+}
+/* end registration */
