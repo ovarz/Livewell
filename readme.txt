@@ -19,4 +19,9 @@
 24 = welcome.php
 25 = click login button at header
 26 = click register button at header
-27 = register.php
+27 = register-doctor-step-1.php
+28 = register-doctor-step-2.php
+29 = register-doctor-step-3.php
+30 = register-doctor-step-4.php
+31 = register-doctor-step-5.php
+32 = register-doctor-step-6.php

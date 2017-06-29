@@ -34,14 +34,11 @@
                 <!-- bio -->
                 <li class="docprofile">
                   <div>
-                    <h1>Welcome <span>Doctor</span></h1>
-              	    <a href="javascript:void(0)" class="flex_ori">
+                    <h1>Hi, <span>Ken Girisya</span></h1>
+              	    <div class="flex_ori">
                       <img data-original="img/doctor-<?php echo rand(1, 7); ?>.jpg" />
-                    </a>
-                    <div class="profile-form">
-                      <h6>Your Full Name</h6>
-                      <input name="" type="text" />
-                    </div>                   
+                    </div> 
+                    <h6 class="note">Please Complete <span>Your Profile</span></h6>                
                   </div>
                 </li>
                 <!-- end bio -->
@@ -50,8 +47,8 @@
                 
                 <li class="docinfo">
                   <div class="uregis-bar">
-                    <span style="width:50%"></span>
-                    <div>50%</div>
+                    <span style="width:40%"></span>
+                    <div>40%</div>
                   </div>
                 </li>
                 
@@ -62,33 +59,19 @@
                     
                     <!-- section -->
                     <div>
- 					  <h4>Basic Information</h4>
+ 					  <h4>Your Qualification Info</h4>
                       <ul>
                     
                         <!-- row -->
                         <li>
-                          <h5>Prefix Academy Title</h5>
+                          <h5>University</h5>
                           <input name="" type="text" />
                         </li>
                         <!-- end row -->
                       
                         <!-- row -->
                         <li>
-                          <h5>Suffix Academy Title</h5>
-                          <input name="" type="text" />
-                        </li>
-                        <!-- end row -->
-                      
-                        <!-- row -->
-                        <li>
-                          <h5>Your Gender</h5>
-                          <input name="" type="text" />
-                        </li>
-                        <!-- end row -->
-                      
-                        <!-- row -->
-                        <li>
-                          <h5>Language Spoken</h5>
+                          <h5>Year Attended</h5>
                           <select name="">
                             <option value="1"></option>
                           </select>
@@ -96,18 +79,22 @@
                         <!-- end row -->
                       
                         <!-- row -->
-                        <li id="pilihtanggal">
-                          <h5>Birthday</h5>
-                          <input name="" class="choosedate" type="text" />
+                        <li>
+                          <h5>Field of Study</h5>
+                          <input name="" type="text" />
                         </li>
                         <!-- end row -->
                       
                         <!-- row -->
                         <li>
-                          <h5>Gender</h5>
-                          <select name="">
-                            <option value="1"></option>
-                          </select>
+                          <h5>Degree</h5>
+                          <input name="" type="text" />
+                        </li>
+                        <!-- end row -->
+                        
+                        <!-- row -->
+                        <li>
+                          <input name="" class="btn addqua" value="Add Qualification" type="button" />
                         </li>
                         <!-- end row -->
                       
@@ -119,19 +106,19 @@
                     
                     <!-- section -->
                     <div>
- 					  <h4>Residential Address</h4>
+ 					  <h4>Your Second Qualification Info</h4>
                       <ul>
                     
                         <!-- row -->
                         <li>
-                          <h5>Street Address</h5>
+                          <h5>University</h5>
                           <input name="" type="text" />
                         </li>
                         <!-- end row -->
                       
                         <!-- row -->
                         <li>
-                          <h5>City</h5>
+                          <h5>Year Attended</h5>
                           <select name="">
                             <option value="1"></option>
                           </select>
@@ -140,60 +127,30 @@
                       
                         <!-- row -->
                         <li>
-                          <h5>State</h5>
-                          <select name="">
-                            <option value="1"></option>
-                          </select>
-                        </li>
-                        <!-- end row -->
-                      
-                        <!-- row -->
-                        <li>
-                          <h5>Country</h5>
-                          <select name="">
-                            <option value="1"></option>
-                          </select>
-                        </li>
-                        <!-- end row -->
-                      
-                        <!-- row -->
-                        <li>
-                          <h5>ZIP Code</h5>
+                          <h5>Field of Study</h5>
                           <input name="" type="text" />
+                        </li>
+                        <!-- end row -->
+                      
+                        <!-- row -->
+                        <li>
+                          <h5>Degree</h5>
+                          <input name="" type="text" />
+                        </li>
+                        <!-- end row -->
+                        
+                        <!-- row -->
+                        <li>
+                          <input name="" class="btn addqua" value="Add Qualification" type="button" />
                         </li>
                         <!-- end row -->
                       
                       </ul>
                     </div>
                     <!-- end section -->
-                    
-                    
-                    
-                    <!-- section -->
-                    <div>
- 					  <h4>Contact Number</h4>
-                      <ul>
-                    
-                        <!-- row -->
-                        <li>
-                          <h5>Street Address</h5>
-                          <input name="" type="text" />
-                        </li>
-                        <!-- end row -->
-                      
-                        <!-- row -->
-                        <li>
-                          <h5>City</h5>
-                          <input name="" type="text" />
-                        </li>
-                        <!-- end row -->
-                      
-                      </ul>
-                    </div>
-                    <!-- end section -->
-                    
-                    
-                    
+
+
+
                     <!-- button -->
                     <div>
                       <input name="" class="btn" value="Continue" type="button" />
