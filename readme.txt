@@ -27,3 +27,6 @@
 32 = register-doctor-step-6.php
 33 = member-profile.php
 34 = member-edit.php
+35, 36 = member-appointment.php
+37 = member-appointment-cancel.php
+38 = member-appointment.php -> click review button

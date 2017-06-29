@@ -213,6 +213,22 @@ columnDefs: [
 
 
 
+/* tallest appointment list */
+var tallest_appointment = function(){
+  var maxHeight = -1;
+
+  $('.appointment-list > ul > li').each(function() {
+    maxHeight = maxHeight > $(this).height() ? maxHeight : $(this).height();
+  });
+
+  $('.appointment-list > ul > li').each(function() {
+    $(this).find('> ul').css("min-height", maxHeight - 20);
+  });
+}
+/* end tallest appointment list */
+
+
+
 $(document).ready(function(){
   flex_thumb();
   refresh_up();
@@ -220,4 +236,8 @@ $(document).ready(function(){
   mobile_menu_open();
   mobile_submenu_open();
   insurance_table();
+});
+
+$(window).load(function(){
+  tallest_appointment();
 });

@@ -598,7 +598,7 @@ filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', en
 
 @media screen and (min-width:300px) and (max-width:567px){
   .docprofile > div{padding-bottom:20px;}
-  .docprofile > div > .doclist-info > span{margin-left:10px;}
+  .docprofile > div > .doclist-info > span{padding-left:10px;}
   .docprofile > div > .flex_ori{padding:0 10px; background:0; margin-bottom:10px;}
 }
 
@@ -1058,7 +1058,8 @@ box-shadow:2px 2px 2px #BDBDBD; -moz-box-shadow:2px 2px 2px #BDBDBD; -webkit-box
 .uregis .docinfo-tab-content > div > ul > li > .chbox{margin-right:10px;}
 .uregis .docinfo-tab-content .addqua{width:100%; box-sizing:border-box; text-align:center; background-image:linear-gradient(to bottom, #d1d2d4 50%, #707f90 50%);}
 
-@media screen and (min-width:300px) and (max-width:567px){
+
+
   .uregis .docprofile > div > *{padding:0 10px;} 
 }
 
@@ -1099,4 +1100,66 @@ box-shadow:2px 2px 2px #BDBDBD; -moz-box-shadow:2px 2px 2px #BDBDBD; -webkit-box
 .m-profile-data .m-name{color:#00b3e3;}
 .m-profile-data .m-field > input{padding:10px; border:1px solid #E0E0E0; width:100%; box-sizing:border-box; margin-top:2px;}
 .m-profile-data .update-btn{margin-top:20px; text-transform:uppercase;}
+
+.appointment-tab > ul > li{width:50%;}
+
+.appointment-list{padding:20px;}
+.appointment-list-box{float:left; padding:5px; box-sizing:border-box;}
+.appointment-list-box > ul{background:#FFF; border:1px solid #E0E0E0; padding:10px;
+-moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px;
+box-shadow:1px 1px 1px #BDBDBD; -moz-box-shadow:1px 1px 1px #BDBDBD; -webkit-box-shadow:1px 1px 1px #BDBDBD;}
+.appointment-list-box > ul > li,
+.appointment-cancel .leftside > ul > li{padding:10px 0; border-top:1px solid #E0E0E0;}
+.appointment-list-box > ul > li:first-child,
+.appointment-cancel .leftside > ul > li:first-child{border-top:0; padding-top:0;}
+.appointment-list-box > ul > li:last-child{padding-bottom:0;}
+.appointment-list-box > ul > li > div,
+.appointment-cancel .leftside > ul > li > div{padding:2px 0; line-height:24px;}
+
+.appointment-info .appoint-date, 
+.appointment-info .appoint-status,
+.appointment-info .doctor-name,
+.appointment-info .med-name{color:#212121;}
+.appointment-info .appoint-date{font-weight:700; color:#212121;}
+.appointment-info .appoint-status > .confirm{color:#67be61;}
+.appointment-info .appoint-status > .pending{color:#757575;}
+.appointment-info .doctor-title, .appointment-list-box .med-title,
+.popup-review .doctor-title, .popup-review .med-title{color:#00b3e3;}
+.appointment-info .cancel-btn,
+.popup-review .cancel-btn{background-image:linear-gradient(to bottom, #DD0000 50%, #707f90 50%);}
+.appointment-info .review-btn{background-image:linear-gradient(to bottom, #67be61 50%, #707f90 50%);}
+
+.appointment-cancel > h5{padding:10px 0; border-bottom:1px solid #E0E0E0; margin-bottom:10px;}
+.appointment-cancel > ul > li{box-sizing:border-box;}
+.appointment-cancel .rightside > .reason{padding:10px; background:#FFF; border:1px solid #E0E0E0; margin-bottom:20px;}
+.appointment-cancel .rightside > .reason > *{padding:5px; position:relative;}
+.appointment-cancel .rightside > .reason > b{display:block; margin-bottom:5px;}
+.appointment-cancel .rightside > .reason > div > input{position:absolute; top:10px; left:5px;}
+.appointment-cancel .rightside > .reason > div > div{margin-left:25px; line-height:22px;}
+
+.popup-review > *{margin:0 20px; padding:10px 0; border-top:1px solid #E0E0E0; display:block; line-height:24px;}
+.popup-review > h5{font-weight:700;}
+.popup-review > span{text-align:center;}
+.popup-review > span > .doc-rate{display:inline-block;}
+.popup-review > span > .doc-rate > li > .fa-star{font-size:24px;}
+.popup-review > span > .doc-rate > li:not(.now) > .fa-star{color:#757575;}
+.popup-review .write-review > textarea{padding:10px; border:1px solid #E0E0E0; box-sizing:border-box; width:100%; min-height:80px;}
+.popup-review .button > ul > li:first-child{float:left;}
+.popup-review .button > ul > li:last-child{float:right;}
+
+
+@media screen and (min-width:300px) and (max-width:567px){
+  .appointment-list-box, .appointment-cancel > ul > li{width:100%;}
+  
+}
+
+@media screen and (min-width:300px) and (max-width:1023px){
+  .profile-menu{padding:10px;}
+}
+
+@media screen and (min-width:568px){
+  .appointment-list-box, .appointment-cancel > ul > li{width:50%;}
+  .appointment-cancel .leftside{float:left; padding-right:10px;}
+  .appointment-cancel .rightside{float:right; padding-left:10px;}
+}
 /* end profile */
