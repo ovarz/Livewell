@@ -575,7 +575,7 @@ background-image:linear-gradient(to bottom, #edf2f6 50%, #00b3e3 50%); color:#70
 .docdetail{padding-bottom:50px;}
 .docprofile > h1 > b{color:#00b3e3;}
 .docprofile > div{position:relative;}
-.docprofile > div > .doclist-info > span{margin-left:20px;}
+.docprofile > div > .doclist-info > span{padding-left:20px; width:100%; box-sizing:border-box;}
 
 .docinfo-tab-content{background:-moz-linear-gradient(top,  rgba(0,0,0,0.1) 0%, rgba(0,0,0,0) 40%); /* FF3.6-15 */
 background:-webkit-linear-gradient(top,  rgba(0,0,0,0.1) 0%,rgba(0,0,0,0) 40%); /* Chrome10-25,Safari5.1-6 */
@@ -1088,9 +1088,15 @@ box-shadow:2px 2px 2px #BDBDBD; -moz-box-shadow:2px 2px 2px #BDBDBD; -webkit-box
 .profile-menu > ul > li > .m-favorites > div{background-image:url(../img/m-favorites.png);}
 .profile-menu > ul > li > .m-settings > div{background-image:url(../img/m-settings.png);}
 
+.update-photo{width:100%;}
+.update-photo > div{border:1px dashed #BDBDBD; padding:10px; box-sizing:border-box;}
+.update-photo > div > b{padding-bottom:5px; display:block;}
+
 .m-profile-data > div{border-bottom:0;}
 .m-profile-data > div > h3{font-weight:700; padding-bottom:10px; border-bottom:1px solid #E0E0E0;}
 
 .m-profile-data > div > ul > li{padding:10px 0; border-top:1px solid #E0E0E0;}
 .m-profile-data .m-name{color:#00b3e3;}
+.m-profile-data .m-field > input{padding:10px; border:1px solid #E0E0E0; width:100%; box-sizing:border-box; margin-top:2px;}
+.m-profile-data .update-btn{margin-top:20px; text-transform:uppercase;}
 /* end profile */

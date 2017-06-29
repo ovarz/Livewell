@@ -26,3 +26,4 @@
 31 = register-doctor-step-5.php
 32 = register-doctor-step-6.php
 33 = member-profile.php
+34 = member-edit.php
