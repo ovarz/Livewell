@@ -30,3 +30,6 @@
 35, 36 = member-appointment.php
 37 = member-appointment-cancel.php
 38 = member-appointment.php -> click review button
+39 = member-insurance.php
+40 = member-favorites.php
+41 = member-settings.php

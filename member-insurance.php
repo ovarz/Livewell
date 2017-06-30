@@ -22,7 +22,7 @@
                 
                 <!-- button -->
                 <li>
-                  <a class="btn m-appointment active" href="javascript:void(0)">
+                  <a class="btn m-appointment" href="javascript:void(0)">
                     <div>Appointment</div>
                   </a>
                 </li>
@@ -30,7 +30,7 @@
                 
                 <!-- button -->
                 <li>
-                  <a class="btn m-insurance" href="javascript:void(0)">
+                  <a class="btn m-insurance active" href="javascript:void(0)">
                     <div>Insurance</div>
                   </a>
                 </li>
@@ -79,7 +79,7 @@
               
                 <!-- bio -->
                 <li class="docprofile">
-                  <h1>Appointment</b></h1>
+                  <h1>Insurance</b></h1>
                   <div>
               	    <div class="flex_ori">
                       <img data-original="img/m-photo.jpg" />
@@ -95,38 +95,62 @@
                 <!-- end bio -->
               
                 <!-- info tab -->
-                <li class="docinfo appointment-info">
-                  <div class="docinfo-tab-content appointment-cancel">   
-                    <h5>You are about to cancel this booking :</h5>
-                    <ul>
-                      <li class="leftside">
-                        <ul>
-                          <li>
-                        	<div class="appoint-date">Thursday, 25 Aug 2016 - 17:30</div>
-                        	<div class="doctor-title">Doctor</div>
-                            <div class="doctor-name">Dr. Agustinus Iskandar, Sp. S</b></div>
-                            <div class="doctor-spc">Cardiologist</div>
-                          </li>
-                          
-                          <li>
-                        	<div class="med-title">Address</div>
-                            <div class="med-name">Klinik Media Lestari - Taman Palem</b></div>
-                            <div class="med-addr">Taman Palem Lestari Blok D10/17, Cengkareng, Jakarta Barat, Jakarta Indonesia 11730</div>
-                          </li>
-                        </ul>
-                      </li>
+                <li class="docinfo">
+                
+              	  <div class="docinfo-tab-content m-profile-data">   
+                    
+                    <!-- section -->
+                    <div>
+                      <h3>You are about to requested this Insurance :</h3>
+                      <div class="member-ins">
                       
-                      <li class="rightside">
-                        <div class="reason">
-                          <b>Reason of cancellation</b>
-                          <div><input name="tes" type="radio" value="1" /> <div>Can't come to the appointment</div></div>
-                          <div><input name="tes" type="radio" value="2" /> <div>Need to change the schedule</div></div>
-                          <div><input name="tes" type="radio" value="3" /> <div>Other reasons</div></div>
+                        <div class="member-ins-info">
+                          <span class="flex_ori">
+                            <img data-original="img/ins-logo.jpg" />
+                          </span>
+                          <div class="content_center">
+                            <span>
+                              <div>Premi</div>
+                              <b>Rp 41.000/month</b>
+                              <div>Insurance Status - <b>Pending</b></div>
+                            </span>
+                          </div>
                         </div>
-                        <input name="" class="btn cancel-btn" value="Cancel booking" type="button" />
-                      </li>
-                    </ul>
-                  </div>             
+                        
+                        
+                        
+                        <div class="member-ins-table">
+
+                          <table class="data_table">
+                            <thead>
+                              <tr>
+                                <th class="dayrs">Harian Rumah Sakit</th>
+                                <th class="icuprice">Harga ICU</th>
+                                <th class="daycrash">Harian Rumah Sakit <br />Karena Kecelakaan</th>
+                                <th class="surgery">Fedah Pembedahan</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                                
+                              <!-- row -->
+                              <tr>
+                                <td class="dayrs">Rp 250.000 </td>
+                                <td class="icuprice">Rp 500.000</td>
+                                <td class="daycrash">Rp 500.000</td>
+                                <td class="surgery">Rp 2.500.000 </td>
+                              </tr>
+                              <!-- end row -->
+                              
+                            </tbody>
+                          </table>
+
+                        </div>
+                        
+                      </div>
+                    </div>
+                    <!-- end section -->
+                    
+                  </div>                  
                 </li>
                 <!-- end info tab -->
                 

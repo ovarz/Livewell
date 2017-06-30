@@ -22,7 +22,7 @@
                 
                 <!-- button -->
                 <li>
-                  <a class="btn m-appointment active" href="javascript:void(0)">
+                  <a class="btn m-appointment" href="javascript:void(0)">
                     <div>Appointment</div>
                   </a>
                 </li>
@@ -46,7 +46,7 @@
                 
                 <!-- button -->
                 <li>
-                  <a class="btn m-favorites" href="javascript:void(0)">
+                  <a class="btn m-favorites active" href="javascript:void(0)">
                     <div>Favorites</div>
                   </a>
                 </li>
@@ -79,7 +79,7 @@
               
                 <!-- bio -->
                 <li class="docprofile">
-                  <h1>Appointment</b></h1>
+                  <h1>Favorites</b></h1>
                   <div>
               	    <div class="flex_ori">
                       <img data-original="img/m-photo.jpg" />
@@ -95,38 +95,53 @@
                 <!-- end bio -->
               
                 <!-- info tab -->
-                <li class="docinfo appointment-info">
-                  <div class="docinfo-tab-content appointment-cancel">   
-                    <h5>You are about to cancel this booking :</h5>
-                    <ul>
-                      <li class="leftside">
-                        <ul>
-                          <li>
-                        	<div class="appoint-date">Thursday, 25 Aug 2016 - 17:30</div>
-                        	<div class="doctor-title">Doctor</div>
-                            <div class="doctor-name">Dr. Agustinus Iskandar, Sp. S</b></div>
-                            <div class="doctor-spc">Cardiologist</div>
-                          </li>
-                          
-                          <li>
-                        	<div class="med-title">Address</div>
-                            <div class="med-name">Klinik Media Lestari - Taman Palem</b></div>
-                            <div class="med-addr">Taman Palem Lestari Blok D10/17, Cengkareng, Jakarta Barat, Jakarta Indonesia 11730</div>
-                          </li>
-                        </ul>
-                      </li>
-                      
-                      <li class="rightside">
-                        <div class="reason">
-                          <b>Reason of cancellation</b>
-                          <div><input name="tes" type="radio" value="1" /> <div>Can't come to the appointment</div></div>
-                          <div><input name="tes" type="radio" value="2" /> <div>Need to change the schedule</div></div>
-                          <div><input name="tes" type="radio" value="3" /> <div>Other reasons</div></div>
-                        </div>
-                        <input name="" class="btn cancel-btn" value="Cancel booking" type="button" />
-                      </li>
+                <li class="docinfo">
+                
+              	  <!-- tab button -->
+                  <div class="docinfo-tab tabception">
+                    <ul class="tabs">
+                      <li><a href="#fav-doctor">Doctor</a></li>
+                      <li><a href="#fav-facility">Facility</a></li>
+                      <li><a href="#fav-insurance">Insurance</a></li>
                     </ul>
-                  </div>             
+                  </div>
+                  <!-- end tab button -->
+
+                  
+                  <div class="docinfo-tab-content rsinfo-doctor fav-list" id="fav-doctor">   
+                    <ul>
+                    
+                      <!-- list -->
+          			  <?php for ($i=1; $i <= 3 ; $i++) { ?>
+                      <li>
+                        <div>
+                          <div class="flex_thumb"><img src="img/doctor-<?php echo rand(1, 7); ?>.jpg" /></div>
+                          <div class="doclist-info content_center">
+                            <span>
+                              <h2 class="doc-name">Dr.Andreas Harry</h2>
+                              <h3 class="doc-speciality">Cardiology</h3>
+                              <ul class="doc-rate">
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                <li>(12345)</li>
+                              </ul>
+                              <div class="doc-rs fa fa-map-marker" aria-hidden="true">Rumah Sakit Gading Pluit</div>
+                            </span>
+                          </div>
+                          <div class="doc-btn content_center">
+                            <a class="btn doc-btn-give-rate"><i class="fa fa-star" aria-hidden="true"></i></a>
+                          </div>
+                        </div>
+                      </li>
+                      <?php } ?> 
+          			  <!-- list -->
+          
+                    </ul>
+                  </div>
+                  
                 </li>
                 <!-- end info tab -->
                 

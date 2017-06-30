@@ -14,7 +14,7 @@
               
                 <!-- button -->
                 <li>
-                  <a class="btn m-profile active" href="javascript:void(0)">
+                  <a class="btn m-profile" href="javascript:void(0)">
                     <div>Profile</div>
                   </a>
                 </li>
@@ -22,7 +22,7 @@
                 
                 <!-- button -->
                 <li>
-                  <a class="btn m-appointment" href="javascript:void(0)">
+                  <a class="btn m-appointment active" href="javascript:void(0)">
                     <div>Appointment</div>
                   </a>
                 </li>

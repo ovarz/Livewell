@@ -209,6 +209,15 @@ columnDefs: [
 
 	});
 }
+
+var member_insurance_table = function(){
+  $('.member-ins-table > .data_table').DataTable({
+        "paging":   false,
+        "ordering": false,
+        "info":     false,
+		"filter":     false
+    });
+}
 /* end insurance table */
 
 
@@ -236,6 +245,7 @@ $(document).ready(function(){
   mobile_menu_open();
   mobile_submenu_open();
   insurance_table();
+  member_insurance_table();
 });
 
 $(window).load(function(){
