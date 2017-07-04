@@ -46,13 +46,13 @@
                   <div class="choose-user tabception">
                     <ul class="tabs">
                       <li>
-                        <a href="#cu-doctor">
+                        <a href="#choose-doctor">
                           <span><img src="img/icon-doctor.png" /></span>
                           <div>Doctor</div>
                         </a>                      
                       </li>
                       <li>
-                        <a href="#cu-patient">
+                        <a href="#choose-patient">
                           <span><img src="img/icon-patient.png" /></span>
                           <div>Patient</div>
                         </a>
@@ -63,7 +63,7 @@
                   
                   
                   
-                  <div id="cu-doctor" class="login-content">
+                  <div id="choose-doctor" class="login-content">
                     
                     <div class="login-form">
                       <input name="" type="text" class="insert-phone" placeholder="Mobile Number" />
@@ -90,7 +90,7 @@
                   
                   
                   
-                  <div id="cu-patient">
+                  <div id="choose-patient" class="login-content">
                     cu-patient
                   </div>
                   

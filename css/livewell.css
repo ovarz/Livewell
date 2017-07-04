@@ -75,7 +75,7 @@ ol::before, ol::after{content:''; display:block; overflow:hidden; visibility:hid
 .flex_lazy, .flex_thumb{background-repeat:no-repeat; background-size:cover; -webkit-background-size:cover; background-position:center;}
 .flex_thumb img{max-width:inherit; max-height:100%; position:relative; right:50%;}
 
-.detail-popup{display:none;}
+.detail-popup{display:none; max-width:360px;}
 .detail-popup h1, .detail-popup h2{font-weight:bold;}
 .detail-popup > h1{padding:10px 20px; color:#FFF; background-color:#00b3e3;}
 .detail-popup > div{padding:15px 20px;}
@@ -127,10 +127,10 @@ input.choosedate{width:100%; padding:10px; box-sizing:border-box; background-col
 .pdt20{padding-top:20px !important;}
 .pdb20{padding-bottom:20px !important;}
 
-.tabception > ul{display:table; width:100%;}
+.tabception > ul{display:table;}
 .tabception > ul > li{display:table-cell; border-left:1px solid #E0E0E0;}
 .tabception > ul > li:first-child{border-left:0;}
-.tabception > ul > li > *{display:block; padding:10px; color:#212121; background:#718091; color:#FFF; 
+.tabception > ul > li > *{display:block; padding:10px; color:#212121; background:#718091; color:#FFF; margin-right:10px;
 text-align:center; text-transform:uppercase; font-weight:bold; font-size:12px;}
 .tabception > ul > li > .active{background:#00b3e3;}
 .tabception .tab_content{padding:0 10px;}
@@ -863,6 +863,8 @@ box-shadow:2px 2px 2px #BDBDBD; -moz-box-shadow:2px 2px 2px #BDBDBD; -webkit-box
 .ins-compare .dataTables_length select{min-width:60px;}
 .ins-compare table.dataTable tbody tr td{background:#FFF;}
 
+.ins-compare .content_center{border:1px solid #FFF; color:#FFF; width:15px; height:15px; margin:5px auto 0; font-size:10px;
+-moz-border-radius:15px; -webkit-border-radius:15px; border-radius:15px;}
 .ins-compare .button > ul > li{float:left;}
 .ins-compare .button > ul > li > a{width:100%; min-width:60px; text-align:center; box-sizing:border-box;}
 .ins-compare .agent{background-image:none !important;}
@@ -1003,7 +1005,7 @@ box-shadow:2px 2px 2px #BDBDBD; -moz-box-shadow:2px 2px 2px #BDBDBD; -webkit-box
 
 
 /* login popup */
-.popup-loginregis .login-content > *{margin-top:20px;}
+.popup-loginregis .login-content > *{margin-top:10px;}
 
 .popup-loginregis .choose-user{text-align:center;}
 .popup-loginregis .choose-user > ul{display:inline-block;}
@@ -1023,12 +1025,12 @@ box-shadow:2px 2px 2px #BDBDBD; -moz-box-shadow:2px 2px 2px #BDBDBD; -webkit-box
 .popup-loginregis .login-form > .insert-pass{border-bottom:0; background:url(../img/icon-lock.png) no-repeat 23px center;}
 .popup-loginregis .login-forgot{text-align:center;}
 .popup-loginregis .login-agree > input{position:relative; top:2px;}
-.popup-loginregis .login-button .btn{width:100%; text-align:center; box-sizing:border-box;}
+.popup-loginregis .login-button .btn{width:100%; text-align:center; box-sizing:border-box; padding:5px 0;}
 
-.popup-loginregis .login-socmed{padding:15px 20px; background:#EEE; border:1px solid #E0E0E0;}
+.popup-loginregis .login-socmed{padding:10px 20px; background:#EEE; border:1px solid #E0E0E0;}
 .popup-loginregis .login-socmed > *{margin:5px 0;}
 .popup-loginregis .login-socmed > h6{text-align:center;}
-.popup-loginregis .login-socmed > a{display:block; width:100%; box-sizing:border-box; text-align:center;}
+.popup-loginregis .login-socmed > a{display:block; width:100%; box-sizing:border-box; text-align:center; padding:5px 0;}
 .popup-loginregis .login-socmed > .login-fb{background-image:linear-gradient(to bottom, #49689d 50%, #707f90 50%);}
 .popup-loginregis .login-socmed > .login-go{background-image:linear-gradient(to bottom, #e0493d 50%, #707f90 50%);}
 
