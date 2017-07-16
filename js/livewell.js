@@ -142,7 +142,7 @@ var mobile_submenu_open = function(){
 
 
 /* open compare doctor */
-var mobile_menu_open = function(){
+var compare_doctor_open = function(){
   $(".dcp-title > div > a").click(function(){
     $(".dcp-detail").fadeToggle(200);
   });
@@ -244,6 +244,7 @@ $(document).ready(function(){
   sticky_header();
   mobile_menu_open();
   mobile_submenu_open();
+  compare_doctor_open();
   insurance_table();
   member_insurance_table();
 });
